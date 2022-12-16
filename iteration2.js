@@ -20,7 +20,7 @@ for (const alumn of alumns) {
   }
   approvesCount --
 
-  if (approvesCount > 2) {
+  if (approvesCount >= 2) {
     alumn.isApproved = true
   } else {
     alumn.isApproved = false
